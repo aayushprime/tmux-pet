@@ -11,7 +11,7 @@ Add plugin to the list of TPM plugins in `.tmux.conf`:
 
 Hit `prefix + I` to fetch the plugin and source it.
 
-Add `@pet-new-pane-key`, `@pet-vertical-split-pane-key` and/or `@pet-horizontal-split-pane-key` in `.tmux.conf`:
+Add `@pet-new-pane-key` in `.tmux.conf`:
 
     set -g @pet-new-pane-key 'C-f'
 
@@ -46,8 +46,5 @@ Finally, reload tmux:
 | Options                          | Description                                                               |
 |:---------------------------------|:--------------------------------------------------------------------------|
 | `@pet-path`                      | Path to `pet` binary.                                                     |
-| `@pet-pane-size`                 | Size of pane to display `pet` command. (e.g. `10`)                        |
-| `@pet-pane-percentage`           | Percentage of pane to display `pet` command. (e.g. `50`)                  |
 | `@pet-new-pane-key`              | Key binding for opening new full size pane to display `pet` command.      |
-| `@pet-vertical-split-pane-key`   | Key binding for opening vertically split pane to display `pet` command.   |
-| `@pet-horizontal-split-pane-key` | Key binding for opening horizontally split pane to display `pet` command. |
+

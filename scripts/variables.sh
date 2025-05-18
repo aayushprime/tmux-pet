@@ -18,6 +18,12 @@ default_pet_new_pane_key=''
 pet_new_pane_key=$(tmux show-option -gqv "@pet-new-pane-key")
 pet_new_pane_key=${pet_new_pane_key:-$default_pet_new_pane_key}
 
+
+# @pet-new-pane-copy-key
+default_pet_new_pane_copy_key=''
+pet_new_pane_copy_key=$(tmux show-option -gqv "@pet-new-pane-copy-key")
+pet_new_pane_copy_key=${pet_new_pane_copy_key:-$default_pet_new_pane_copy_key}
+
 # @pet-vertical-split-pane-key
 default_pet_vsplit_pane_key=''
 pet_vsplit_pane_key=$(tmux show-option -gqv "@pet-vertical-split-pane-key")
